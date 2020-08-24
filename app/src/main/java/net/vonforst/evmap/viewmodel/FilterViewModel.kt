@@ -203,7 +203,7 @@ data class SliderFilter(
 
 sealed class FilterValue : BaseObservable(), Equatable {
     abstract val key: String
-    var profile: Long? = null
+    var profile: Long = 0
 }
 
 @Entity(
